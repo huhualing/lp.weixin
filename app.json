@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/content/content",
+    "pages/outequip/outequip",
+    "pages/books/books",
+    "pages/magazine/magazine",
+    "pages/logs/logs",
+    "pages/theme/theme",
+    "pages/all/all",
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0a4f9c",
+    "navigationBarTitleText": "Lonely Planet",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#0a4f9c",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon/icon_tabbar_merchant_normal.png",
+        "selectedIconPath": "images/icon/icon_tabbar_merchant_selected.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/all/all",
+        "iconPath": "images/icon/icon_tabbar_mine.png",
+        "selectedIconPath": "images/icon/icon_tabbar_mine_selected.png",
+        "text": "全部"
+      }
+    ]
+  }
+}

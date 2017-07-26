@@ -1,0 +1,53 @@
+<!--pages/all/all.wxml-->
+<view class="new_title">全部文章</view>
+  <view class="type-container">
+  <scroll-view>
+      <view class="type-box" bindtap="bindto-tab" id="{{index}}">
+       <navigator url="../content/content?id={{item.id}}">  
+                <view id=""  class="type-title" bindtap="tabClick">
+                    这8个景点，只为杜鹃也值得去一次</view>
+                  <image src="../../images/3009.jpg"></image>
+                  <view class="type-text">
+                  <text>南京正暑假出发，2折机票450就能飞一趟一年之中美得人心惊的青海。怎么样</text>
+                  </view>
+        </navigator>
+          </view>
+           <view class="type-box" bindtap="bindto-tab" id="{{index}}">
+           <navigator url="../content/content?id={{item.id}}">
+    
+                <view id=""  class="type-title" bindtap="tabClick">
+                    10个云南旅游目的地推荐！</view>
+                  <image src="../../images/1096.jpg"></image>
+                  <view class="type-text">
+                  <text>每个人心里都有一次彩云之南的旅行，毫无保留的阳光和蓝天，让人忘情的雪山、湖泊、梯田和草原</text>
+                  </view>
+        </navigator>
+        </view>
+        <view class="type-box" bindtap="bindto-tab" id="{{index}}">
+           <navigator url="../content/content?id={{item.id}}">
+        
+    
+                <view id=""  class="type-title" bindtap="tabClick">
+                   它海水透明如玻璃，但它不是马代</view>
+                  <image src="../../images/3016.jpg"></image>
+                  <view class="type-text">
+                  <text>它是绚丽的潜水天堂，但它不是大堡礁它很适合享受两个人的蜜月，但它不是巴厘岛我们可以免签去塞班岛</text>
+                  </view>
+        </navigator>
+        </view>
+        <view class="type-box" bindtap="bindto-tab" id="{{index}}">
+           <navigator url="../content/content?id={{item.id}}">
+        
+    
+                <view id=""  class="type-title" bindtap="tabClick">
+                    雪山湖畔油菜花海即将怒放！</view>
+                  <image src="../../images/3423.jpg"></image>
+                  <view class="type-text">
+                  <text>几乎所有“适合夏天出行的目的地”榜单中，都会出现青海的身影。</text>
+                  </view>
+        </navigator>
+          </view>
+          
+           
+  </scroll-view>
+  </view>
